@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3605B756-AFD3-4F22-B136-379A44471ED6}|ICT3112_Calculator\\ICT3112_Calculator.csproj|c:\\sitschoolwork\\y3t1\\svv_labs\\ict3112_calculator\\ict3112_calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3605B756-AFD3-4F22-B136-379A44471ED6}|ICT3112_Calculator\\ICT3112_Calculator.csproj|solutionrelative:ict3112_calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3605B756-AFD3-4F22-B136-379A44471ED6}|ICT3112_Calculator\\ICT3112_Calculator.csproj|c:\\sitschoolwork\\y3t1\\svv_labs\\ict3112_calculator\\ict3112_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3605B756-AFD3-4F22-B136-379A44471ED6}|ICT3112_Calculator\\ICT3112_Calculator.csproj|solutionrelative:ict3112_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}|ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj|c:\\sitschoolwork\\y3t1\\svv_labs\\ict3112_calculator\\ict3112_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}|ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj|solutionrelative:ict3112_calculator.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}|ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj|c:\\sitschoolwork\\y3t1\\svv_labs\\ict3112_calculator\\ict3112_calculator.unittests\\areacalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}|ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj|solutionrelative:ict3112_calculator.unittests\\areacalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}|ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj|c:\\sitschoolwork\\y3t1\\svv_labs\\ict3112_calculator\\ict3112_calculator.unittests\\ict3112_calculator.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}|ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj|solutionrelative:ict3112_calculator.unittests\\ict3112_calculator.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:366772632:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator\\Calculator.cs",
+              "RelativeDocumentMoniker": "ICT3112_Calculator\\Calculator.cs",
+              "ToolTip": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator\\Calculator.cs",
+              "RelativeToolTip": "ICT3112_Calculator\\Calculator.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:37:49.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 287,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICT3112_Calculator.UnitTests.csproj",
+              "DocumentMoniker": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj",
+              "RelativeDocumentMoniker": "ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj",
+              "ToolTip": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj",
+              "RelativeToolTip": "ICT3112_Calculator.UnitTests\\ICT3112_Calculator.UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T05:58:17.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AreaCalculator.cs",
+              "DocumentMoniker": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator.UnitTests\\AreaCalculator.cs",
+              "RelativeDocumentMoniker": "ICT3112_Calculator.UnitTests\\AreaCalculator.cs",
+              "ToolTip": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator.UnitTests\\AreaCalculator.cs",
+              "RelativeToolTip": "ICT3112_Calculator.UnitTests\\AreaCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:24:45.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator.UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ICT3112_Calculator.UnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator.UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "ICT3112_Calculator.UnitTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:51:13.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator\\Program.cs",
+              "RelativeDocumentMoniker": "ICT3112_Calculator\\Program.cs",
+              "ToolTip": "C:\\SITSchoolWork\\Y3T1\\SVV_Labs\\ICT3112_Calculator\\ICT3112_Calculator\\Program.cs",
+              "RelativeToolTip": "ICT3112_Calculator\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:35:24.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
