@@ -1,5 +1,11 @@
 # Visual Studio
 launchSettings.json
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
 
 # NCrunch
 *.ncrunchsolution

@@ -117,6 +117,7 @@ namespace ICT3112_Calculator
             return 0.5 * baseLength * height;
         }
 
+        /////////////////Circle Stuff
         public double CircleArea(double radius)
         {
             if (radius < 0)

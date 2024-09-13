@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3112_Calculator", "ICT3112_Calculator\ICT3112_Calculator.csproj", "{3605B756-AFD3-4F22-B136-379A44471ED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3112_Calculator", "ICT3112_Calculator\ICT3112_Calculator.csproj", "{3605B756-AFD3-4F22-B136-379A44471ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3112_Calculator.UnitTests", "ICT3112_Calculator.UnitTests\ICT3112_Calculator.UnitTests.csproj", "{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3112_Calculator.UnitTests", "ICT3112_Calculator.UnitTests\ICT3112_Calculator.UnitTests.csproj", "{52DD3F76-B6ED-45BD-92A6-DBCA74756FA1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3605B756-AFD3-4F22-B136-379A44471ED6} = {3605B756-AFD3-4F22-B136-379A44471ED6}
 	EndProjectSection

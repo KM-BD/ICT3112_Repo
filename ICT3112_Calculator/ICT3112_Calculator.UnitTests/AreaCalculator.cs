@@ -16,6 +16,7 @@ namespace ICT3112_Calculator.UnitTests
             // Arrange 
             _calculator = new Calculator();
         }
+        //Triangle Area
         [Test]
         public void TriangleArea_GivenHeightAndBase_ShouldReturnCorrectArea()
         {
@@ -69,6 +70,7 @@ namespace ICT3112_Calculator.UnitTests
             Assert.Throws<ArgumentException>(() => _calculator.TriangleArea(height, baseLength));
         }
 
+        // Circle Tests
         [Test]
         public void CircleArea_GivenRadius_ShouldReturnCorrectArea()
         {
