@@ -92,22 +92,23 @@ namespace ICT3112_Calculator.UnitTests
         [TestCase(10, 0)] // Denominator is zero
         public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
         {
-            // Added to handle corner cases where there is 0
             if (a == 0 && b == 0)
             {
-                // Act & Assert
-                var ex = Assert.Throws<ArgumentException>(() => _calculator.Divide(a, b));
-                Assert.That(ex.Message, Is.EqualTo("Both numerator and denominator cannot be zero."));
+                // When both numerator and denominator are zero, expect the result to be 1
+                var result = _calculator.Divide(a, b);
+                Assert.That(result, Is.EqualTo(1));
             }
             else if (b == 0)
             {
-                // Act & Assert
-                Assert.Throws<DivideByZeroException>(() => _calculator.Divide(a, b));
+                // When the denominator is zero, expect the result to be PositiveInfinity
+                var result = _calculator.Divide(a, b);
+                Assert.That(result, Is.EqualTo(double.PositiveInfinity));
             }
             else
             {
-                // In case no exception is expected
-                Assert.DoesNotThrow(() => _calculator.Divide(a, b));
+                // In all other cases, perform the division and verify the result
+                var result = _calculator.Divide(a, b);
+                Assert.That(result, Is.EqualTo(a / b));
             }
         }
 
