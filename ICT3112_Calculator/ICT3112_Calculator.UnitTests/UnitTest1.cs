@@ -231,5 +231,16 @@ namespace ICT3112_Calculator.UnitTests
             Assert.That(() => _calculator.UnknownFunctionB(4, -5), Throws.ArgumentException);
         }
 
+        // Lab 4 Qn 8
+        [Test]
+        public void GenMagicNum_TestDependency_BuildSuccess()
+        {
+            var fileReader = new FileReader();            
+            // Act
+            double result = _calculator.GenMagicNum(1, fileReader);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(4).Within(0.00001)); // Adjust tolerance for floating-point precision
+        }
     }
 }
