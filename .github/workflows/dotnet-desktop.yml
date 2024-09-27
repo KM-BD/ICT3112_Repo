@@ -84,7 +84,7 @@ jobs:
       
     - name: SpecFlow Tests
       working-directory: ./ICT3112_Calculator\SpecFlowCalculatorTests\
-      run: dotnet test --no-build --verbosity detailed
+      run: dotnet test --no-build --verbosity normal
 
     # Restore the application to populate the obj folder with RuntimeIdentifiersA
     - name: Restore the application
