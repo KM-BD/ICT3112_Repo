@@ -13,4 +13,4 @@
   Scenario: Calculating current failure intensity (λ(𝜏))
     Given I have a calculator
     When I have entered initial failure intensity 0.02, cumulative failures 0.1998, and total failures expected 100 into the calculator and press FailureIntensity
-    Then the basic failure intensity result should be "0.01996"
+    Then the basic failure intensity result should be "0.01996" 
