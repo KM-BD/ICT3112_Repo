@@ -197,21 +197,21 @@ namespace ICT3112_Calculator
 
         // Logarithmic model        
         public double LogFailureIntensity(double lambda0, double theta, double mu)
-    {
-        // λ(𝜏) = λ₀ * exp(-θ * μ)
-            return lambda0 * Math.Exp(-theta * mu);
-    }
-    public double LogExpectedFailures(double lambda0, double theta, double tau)
-    {
-        // μ(𝜏) = (1 / θ) * ln(λ₀ * θ * τ + 1)
-            return (1 / theta) * Math.Log(lambda0 * theta * tau + 1);
-    }
+        {
+            // λ(𝜏) = λ₀ * exp(-θ * μ)
+                return lambda0 * Math.Exp(-theta * mu);
+        }
+        public double LogExpectedFailures(double lambda0, double theta, double tau)
+        {
+            // μ(𝜏) = (1 / θ) * ln(λ₀ * θ * τ + 1)
+                return (1 / theta) * Math.Log(lambda0 * theta * tau + 1);
+        }
 
-    // Second release of SSI calculation
+        // Second release of SSI calculation
         public double SecondReleaseTotalSSI(double previousSSI, double newAndChangedCode, double deletedCode)
-    {
-        return previousSSI + newAndChangedCode - deletedCode;
-    }
+        {
+                return previousSSI + newAndChangedCode - deletedCode;
+        }
     }
 
 }
