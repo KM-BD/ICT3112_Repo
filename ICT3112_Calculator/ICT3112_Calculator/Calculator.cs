@@ -1,10 +1,17 @@
 ﻿using Newtonsoft.Json.Linq;
+using NUnit.Framework.Internal;
 using System;
+using System.Buffers.Text;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using TechTalk.SpecFlow.CommonModels;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ICT3112_Calculator
 {
@@ -34,6 +41,12 @@ namespace ICT3112_Calculator
                     // Factorial for the first number
                     result = Factorial((int)num1);
                     break;
+                //case "fi":
+                //    result = FailureIntensity(num1, num2, num3);
+                //    break;
+                //case "ef":
+                //    result = ExpectedFailures(num1, num2, num3);
+                //    break;
                 // Return text for an incorrect option entry. 
                 default:
                     break;
@@ -143,6 +156,62 @@ namespace ICT3112_Calculator
 
             return Math.PI * radius * radius;
         }
+
+        // Basic Musa Model
+        public double FailureIntensity(double lambda0, double muTau, double nu0)
+        {
+            // λ(𝜏) = λ₀ [1 - μ(𝜏) / ν₀]
+            return lambda0 * (1 - (muTau / nu0));
+        }
+        public double ExpectedFailures(double lambda0, double nu0, double tau)
+        {
+            // μ(𝜏) = ν₀ [1 - exp(-λ₀ * τ / ν₀)]
+            return nu0 * (1 - Math.Exp(-lambda0 * tau / nu0));
+        }
+        //Q19:
+        //Title: Enhance Calculator for System Quality Metrics
+        //Description: As a group of system quality engineers, we need to enhance our command-line calculator
+        //to support various system quality metric calculations, including defect density,
+        //Shipped Source Instructions(SSI) for successive releases, and failure intensity calculations using
+        //the Musa Logarithmic model.This will allow us to perform these operations with a single command,
+        //improving efficiency and accuracy in our quality metrics assessments.
+
+
+        //Question 20:
+        //Define some User Story examples for the Features.
+
+        //User Story 1: Calculate Defect Density
+        //In order to evaluate the quality of the software in terms of defect concentration,
+        //As a system quality engineer,
+        //I want to calculate the defect density of a system based on total defects and code size.
+
+        //User Story 2: Calculate SSI for Successive Releases
+        //In order to track the growth of the codebase across releases,
+        //As a system quality engineer,
+        //I want to calculate the total number of Shipped Source Instructions(SSI) for the second release onward.
+
+        //User Story 3: Musa Logarithmic Model Calculations
+        //In order to predict system reliability over time,
+        //As a system quality engineer,
+        //I want to calculate failure intensity and the expected number of failures using the Musa Logarithmic model.
+
+        // Logarithmic model        
+        public double LogFailureIntensity(double lambda0, double theta, double mu)
+    {
+        // λ(𝜏) = λ₀ * exp(-θ * μ)
+            return lambda0 * Math.Exp(-theta * mu);
+    }
+    public double LogExpectedFailures(double lambda0, double theta, double tau)
+    {
+        // μ(𝜏) = (1 / θ) * ln(λ₀ * θ * τ + 1)
+            return (1 / theta) * Math.Log(lambda0 * theta * tau + 1);
+    }
+
+    // Second release of SSI calculation
+        public double SecondReleaseTotalSSI(double previousSSI, double newAndChangedCode, double deletedCode)
+    {
+        return previousSSI + newAndChangedCode - deletedCode;
+    }
     }
 
 }
