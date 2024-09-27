@@ -233,7 +233,7 @@ namespace ICT3112_Calculator.UnitTests
 
         // Lab 4 Qn 8
         [Test]
-        public void GenMagicNum_TestDependency_BuildSuccess()
+        public void GenMagicNum_PositiveTestDependency_BuildSuccess()
         {
             var fileReader = new FileReader();            
             // Act
@@ -242,5 +242,29 @@ namespace ICT3112_Calculator.UnitTests
             // Assert
             Assert.That(result, Is.EqualTo(4).Within(0.00001)); // Adjust tolerance for floating-point precision
         }
-    }
+
+        [Test]
+        public void GenMagicNum_NegativeTestDependency_BuildSuccess()
+        {
+            var fileReader = new FileReader();
+            // Act
+            double result = _calculator.GenMagicNum(-2, fileReader);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(4).Within(0.00001)); // Adjust tolerance for floating-point precision
+        }
+
+        [Test]
+        public void GenMagicNum_IndexBeyondLength_ReturnsDoublePositive()
+        {
+            // Arrange
+            var fileReader = new FileReader();            
+
+            // Act
+            double result = _calculator.GenMagicNum(10, fileReader);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(20));
+        }
+        }
 }
