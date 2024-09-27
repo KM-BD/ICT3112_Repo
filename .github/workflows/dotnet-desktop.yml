@@ -80,10 +80,10 @@ jobs:
     # Execute all unit tests in the solution
     - name: NUnit Tests
       working-directory: ./ICT3112_Calculator\ICT3112_Calculator.UnitTests\              # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      run: dotnet test --nobuild --verbosity normal
+      run: dotnet test --no-build --verbosity normal
     - name: SpecFlow Tests
       working-directory: ./ICT3112_Calculator\SpecFlowCalculatorTests\
-      run: dotnet test --nobuild --verbosity normal
+      run: dotnet test --no-build --verbosity normal
 
     # Restore the application to populate the obj folder with RuntimeIdentifiersA
     - name: Restore the application
