@@ -17,7 +17,7 @@ namespace ICT3112_Calculator.UnitTests
         {
             _mockFileReader = new Mock<IFileReader>();
             _mockFileReader.Setup(fr =>
-            fr.Read("MagicNumbers.txt")).Returns(new string[2] { "42", "42" });
+            fr.Read("MagicNumbers.txt")).Returns(new string[2] { "42", "-42" });
             _calculator = new Calculator();
         }
         // Lab 4 Qn 8
@@ -38,7 +38,7 @@ namespace ICT3112_Calculator.UnitTests
             double result = _calculator.GenMagicNum(-2, _mockFileReader.Object);
 
             // Assert
-            Assert.That(result, Is.EqualTo(4).Within(0.00001));  // Result of -2 will be handled in the else block
+            Assert.That(result, Is.EqualTo(0).Within(0.00001));  // Result of -2 will be handled in the else block
         }
 
         [Test]
@@ -48,7 +48,7 @@ namespace ICT3112_Calculator.UnitTests
             double result = _calculator.GenMagicNum(10, _mockFileReader.Object);  // Input beyond array length
 
             // Assert
-            Assert.That(result, Is.EqualTo(20));  // 10 * 2 = 20
+            Assert.That(result, Is.EqualTo(0));  // 10 * 2 = 20
         }
     }
 }

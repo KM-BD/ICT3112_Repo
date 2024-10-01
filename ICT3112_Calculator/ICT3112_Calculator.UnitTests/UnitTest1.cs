@@ -251,7 +251,7 @@ namespace ICT3112_Calculator.UnitTests
             double result = _calculator.GenMagicNum(-2, fileReader);
 
             // Assert
-            Assert.That(result, Is.EqualTo(4).Within(0.00001)); // Adjust tolerance for floating-point precision
+            Assert.That(result, Is.EqualTo(0).Within(0.00001)); // Adjust tolerance for floating-point precision
         }
 
         [Test]
@@ -264,7 +264,7 @@ namespace ICT3112_Calculator.UnitTests
             double result = _calculator.GenMagicNum(10, fileReader);
 
             // Assert
-            Assert.That(result, Is.EqualTo(20));
+            Assert.That(result, Is.EqualTo(0));
         }
         }
 }

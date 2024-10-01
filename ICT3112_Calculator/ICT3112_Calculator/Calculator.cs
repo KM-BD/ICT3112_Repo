@@ -225,11 +225,7 @@ namespace ICT3112_Calculator
             if((choice >= 0 ) && (choice < magicStrings.Length))
             {
                 result = Convert.ToDouble(magicStrings[choice]);
-            }
-            else
-            {
-                result = choice;
-            }
+            }           
             result = (result >0) ? (2*result) : (-2 *result);
             return result;
         }
